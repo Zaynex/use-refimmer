@@ -1,0 +1,44 @@
+{
+  "name": "use-refimmer",
+  "version": "0.0.1",
+  "description": "Use immer with React.useRef",
+  "main": "dist/use-refimmer.js",
+  "umd:main": "dist/use-refimmer.umd.js",
+  "module": "dist/use-refimmer.module.js",
+  "jsnext:main": "dist/use-refimmer.module.js",
+  "react-native": "dist/use-refimmer.module.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "microbundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaynex/use-refimmer.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "immer",
+    "react",
+    "hooks",
+    "useRef"
+  ],
+  "author": "zaynex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaynex/use-refimmer/issues"
+  },
+  "homepage": "https://github.com/zaynex/use-refimmer#readme",
+  "peerDependencies": {
+    "immer": ">=2.0.0",
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "immer": "^5.0.0",
+    "microbundle": "^0.11.0",
+    "typescript": "^3.4.3"
+  }
+}
