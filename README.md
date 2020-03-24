@@ -16,7 +16,7 @@ Example: https://codesandbox.io/s/react-typescript-3ls8r?fontsize=14&hidenavigat
 
 ```javascript
 import React from "react";
-import { useImmer } from "use-immer";
+import { useRefImmer } from "use-refimmer";
 
 function App() {
   const [usersRef, setUsers] = useRefImmer([]);
